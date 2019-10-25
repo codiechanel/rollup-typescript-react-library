@@ -1,0 +1,2 @@
+# rollup-typescript-react-library
+
