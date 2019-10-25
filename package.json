@@ -1,0 +1,44 @@
+{
+  "name": "rollup-typescript-react-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./index.js",
+  "module": "es/index.js",
+  "jsnext:main": "es/index.js",
+
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "files": [
+    "Best",
+    "es",
+    "Greatness.d.ts",
+    "index.d.ts",
+    "index.js"
+  ],
+  "keywords": [],
+  "author": "codichanel",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.10",
+    "@types/react-dom": "^16.9.2",
+    "react": "^16.11.0",
+    "rollup": "^1.25.2",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-multi-entry": "^2.1.0",
+    "rollup-plugin-multi-input": "^1.0.2",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "rollup-plugin-typescript2": "^0.24.3",
+    "typescript": "^3.6.4"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  }
+}
