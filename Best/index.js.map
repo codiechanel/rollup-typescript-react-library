@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../src/Best/index.tsx"],"sourcesContent":["import * as React from 'react';\r\n\r\n\r\nexport default function Best() {\r\n\r\n\r\n    return (<div>best</div>)\r\n\r\n}\r\n"],"names":["React.createElement"],"mappings":";;;;;;SAGwB,IAAI;IAGxB,QAAQA,wCAAe,EAAC;CAE3B;;;;"}
