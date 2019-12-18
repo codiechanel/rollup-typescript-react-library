@@ -1,0 +1,19 @@
+{
+  "name": "@bit/great",
+  "version": "0.0.1-0",
+  "main": "index.tsx",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "^16.9.10",
+    "react": "^16.11.0"
+  },
+  "peerDependencies": {
+    "react": "^16.11.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/typescript@3.0.35"
+    }
+  }
+}

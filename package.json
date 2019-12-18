@@ -20,16 +20,25 @@
   "author": "codichanel",
   "license": "ISC",
   "peerDependencies": {
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "@emotion/core": "^10.0.22",
+    "@emotion/styled": "^10.0.22",
+    "bootstrap": "^4.3.1",
+    "react": "^16.3.1",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dom": "^16.3.1"
   },
   "devDependencies": {
+    "@emotion/core": "^10.0.22",
+    "@emotion/styled": "^10.0.22",
     "@types/jest": "^24.0.19",
     "@types/react": "^16.9.10",
     "@types/react-dom": "^16.9.2",
     "@types/react-test-renderer": "^16.9.1",
+    "bootstrap": "^4.3.1",
     "jest": "^24.9.0",
-    "react": "^16.11.0",
+    "react": "^16.3.1",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dom": "^16.3.1",
     "react-test-renderer": "^16.11.0",
     "rollup": "^1.25.2",
     "rollup-plugin-commonjs": "^10.1.0",
@@ -44,5 +53,13 @@
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node"
-  }
+  },
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/typescript@3.0.35"
+    },
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "yarn"
+  },
+  "dependencies": {}
 }

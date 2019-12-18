@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../src/Cool/index.tsx"],"sourcesContent":["import * as React from 'react'\r\n\r\nexport default function Cool() {\r\n  return <div>cool</div>\r\n}\r\n"],"names":["React.createElement"],"mappings":";;;;;;SAEwB,IAAI;IAC1B,OAAOA,wCAAe,CAAA;CACvB;;;;"}

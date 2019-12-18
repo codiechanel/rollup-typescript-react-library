@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../src/Great/index.tsx"],"sourcesContent":["import * as React from 'react'\r\n\r\nexport default function Great() {\r\n  return <div>cool</div>\r\n}\r\n"],"names":["React.createElement"],"mappings":";;;;;;SAEwB,KAAK;IAC3B,OAAOA,wCAAe,CAAA;CACvB;;;;"}
